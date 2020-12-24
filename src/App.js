@@ -27,7 +27,7 @@ function App() {
           <h1>COVID-19 Tracker</h1>
           <NavBar />
         </header>
-        <h3>Summary of COVID-19</h3>
+        {/* <h3>Summary of COVID-19</h3> */}
         <Switch>
           <Route exact path="/" component={() => { return <SummaryList data={data} /> }} />
           <Route path="/usa" component={USA} />

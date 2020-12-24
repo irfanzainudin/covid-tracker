@@ -5,7 +5,7 @@ export default function NavBar() {
   return (
     <div className="NavBar">
       <Link className="NavBar-link" to="/"><b>Home</b></Link>
-      <Link className="NavBar-link" to="/usa"><b>States</b></Link>
+      <Link className="NavBar-link" to="/usa"><b>USA</b></Link>
     </div>
   )
 }
