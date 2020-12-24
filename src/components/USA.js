@@ -1,7 +1,12 @@
 import React from 'react';
+import USAMap from 'react-usa-map';
 
 export default function USA() {
   return (
-    <h1>USA</h1>
+    <div>
+      {/* TODO */}
+      <h1>United States of America</h1>
+      <USAMap />
+    </div>
   )
 }
