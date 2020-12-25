@@ -6,6 +6,8 @@ import './App.css';
 import NavBar from './components/NavBar';
 import SummaryList from './components/SummaryList';
 import USA from './components/USA';
+import Malaysia from './components/Malaysia';
+import About from './components/About';
 import NoMatchPage from './components/NoMatchPage';
 
 function App() {
@@ -31,6 +33,8 @@ function App() {
         <Switch>
           <Route exact path="/" component={() => { return <SummaryList data={data} /> }} />
           <Route path="/usa" component={USA} />
+          <Route path="/malaysia" component={Malaysia} />
+          <Route path="/about" component={About} />
           <Route path="/*" component={NoMatchPage} />
         </Switch>
       </div>
