@@ -31,7 +31,7 @@ function App() {
         </header>
         {/* <h3>Summary of COVID-19</h3> */}
         <Switch>
-          <Route exact path="/covid-tracker" component={() => { return <SummaryList data={data} /> }} />
+          <Route exact path="/covid-tracker/" component={() => { return <SummaryList data={data} /> }} />
           <Route path="/covid-tracker/usa" component={USA} />
           <Route path="/covid-tracker/malaysia" component={Malaysia} />
           <Route path="/covid-tracker/about" component={About} />
